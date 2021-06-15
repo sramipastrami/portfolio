@@ -14,10 +14,6 @@ body {
   background-color: beige;
 }
 
-nav a {
-  justify-content: space-around;
-}
-
 #aboutme {
   padding-top: 120px;
 }
