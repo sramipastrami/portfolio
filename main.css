@@ -20,9 +20,19 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
 }
 
-img {
+.polaroid {
+  background-color: beige;
+  margin: 16px;
+}
+
+.polaroid p {
+  text-align: center;
+}
+
+.polaroid img {
   width: 100%;
+  padding: 8px 8px 0 8px;
 }
