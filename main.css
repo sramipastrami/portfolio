@@ -5,13 +5,26 @@
 
 body {
   margin: 0;
+  /* background-color: #b9cfed; */
 }
 
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: beige;
+  background-color: #efe9e5;
+  text-align: center;
+}
+
+.header a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+}
+
+a:hover {
+  font-size: 25px;
 }
 
 #aboutme {
@@ -28,7 +41,7 @@ body {
 }
 
 .polaroid {
-  background-color: beige;
+  background-color: #efe9e5;
   margin: 16px;
 }
 
