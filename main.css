@@ -24,7 +24,7 @@ body {
   padding: 0 15px;
 }
 
-a:hover {
+.header a:hover {
   font-size: 25px;
 }
 /* About Me section */
@@ -33,6 +33,11 @@ a:hover {
 }
 
 /* Skills section */
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .icon {
   font-size: 35px;
 }
@@ -57,6 +62,16 @@ a:hover {
   padding: 8px 8px 0 8px;
 }
 
+.polaroid a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.polaroid a:hover {
+  color: red;
+}
+
 /* Contact section */
 h2 {
   text-align: center;
@@ -75,8 +90,8 @@ h2 {
   padding: 0 15px;
 }
 
+/* align-items: center; */
 .container-icon {
-  /* align-items: center; */
   font-size: 30px;
 }
 
