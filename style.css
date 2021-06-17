@@ -27,6 +27,7 @@ body {
 .header a:hover {
   font-size: 25px;
 }
+
 /* About Me section */
 #aboutme {
   padding-top: 120px;
@@ -101,8 +102,40 @@ footer p {
   font-size: 24px;
 }
 
+.outro {
+  display: flex;
+  justify-content: center;
+}
+
+.typing {
+  position: relative;
+  margin-left: 10px;
+}
+
+.typing::after {
+  content: "";
+  width: 1px;
+  height: 5%;
+  border-right: 2px solid black;
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .heart {
   color: red;
+}
+
+#div-animation {
+  display: none;
 }
 
 @media (min-width: 992px) {
