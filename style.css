@@ -5,7 +5,9 @@
 
 body {
   margin: 0;
-  /* background-color: #b9cfed; */
+  background-color: #c87e5d;
+  color: #f6efe7;
+  font-family: Abril Fatface;
 }
 
 /* Header section */
@@ -13,24 +15,54 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #efe9e5;
+  background-color: #506056;
   text-align: center;
+  z-index: 10;
+}
+
+.header h1 {
+  font-size: 35px;
+  margin-left: 10px;
 }
 
 .header a {
-  font-size: 22px;
+  font-size: 25px;
   text-decoration: none;
-  color: black;
+  color: #f6efe7;
   padding: 0 15px;
 }
 
 .header a:hover {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 /* About Me section */
 #aboutme {
   padding-top: 120px;
+}
+#aboutme p {
+  font-family: indie flower;
+  text-align: center;
+  font-size: 28px;
+  margin: 0 32px;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 34px;
+  color: #506056;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 20px;
+}
+
+.about-me-container img {
+  border-radius: 50%;
+  opacity: 85%;
 }
 
 /* Skills section */
@@ -41,7 +73,7 @@ body {
 }
 
 .icon {
-  font-size: 35px;
+  font-size: 44px;
 }
 
 /* Project section */
@@ -51,34 +83,35 @@ body {
 }
 
 .polaroid {
-  background-color: #efe9e5;
+  background-color: #f1e4df;
   margin: 16px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .polaroid p {
   text-align: center;
+  color: #4b574f;
+  font-family: Indie flower;
 }
 
 .polaroid img {
   width: 100%;
   padding: 8px 8px 0 8px;
+  opacity: 85%;
 }
 
 .polaroid a {
   text-decoration: none;
-  font-size: 20px;
-  color: black;
+  font-size: 23px;
+  color: #506056;
 }
 
 .polaroid a:hover {
-  color: red;
+  color: #c87e5d;
+  font-size: 28px;
 }
 
 /* Contact section */
-h2 {
-  text-align: center;
-  font-size: 30px;
-}
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -87,19 +120,19 @@ h2 {
 }
 
 .contact-container p {
-  font-size: 24px;
+  font-size: 26px;
   padding: 0 15px;
 }
 
-/* align-items: center; */
 .container-icon {
-  font-size: 30px;
+  font-size: 38px;
 }
 
 /* Footer Section */
 footer p {
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
+  font-family: indie flower;
 }
 
 .outro {
@@ -131,11 +164,7 @@ footer p {
 }
 
 .heart {
-  color: red;
-}
-
-#div-animation {
-  display: none;
+  color: #506056;
 }
 
 @media (min-width: 992px) {
